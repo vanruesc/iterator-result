@@ -1,0 +1,63 @@
+{
+	"name": "iterator-result",
+	"version": "0.0.0",
+	"description": "A basic iterator result.",
+	"homepage": "https://github.com/vanruesc/iterator-result",
+	"main": "build/iterator-result.js",
+	"jsnext:main": "src/index.js",
+	"license": "Zlib",
+
+	"keywords": [
+		"iterator",
+		"result",
+		"protocol"
+	],
+
+	"author": {
+		"name": "Raoul van Rüschen",
+		"email": "vanruesc@outlook.de"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vanruesc/iterator-result.git"
+	},
+
+	"bugs": {
+		"url": "https://github.com/vanruesc/iterator-result/issues"
+	},
+
+	"files": [
+		"src",
+		"build"
+	],
+
+	"scripts": {
+		"test": "grunt"
+	},
+
+	"engines": {
+		"node": ">=4.0.0",
+		"npm": ">=4.0.0"
+	},
+
+	"dependencies": {
+	},
+
+	"devDependencies": {
+		"babel-preset-es2015-rollup": "3.0.x",
+		"grunt": "1.x.x",
+		"grunt-cli": "1.2.x",
+		"grunt-contrib-nodeunit": "1.0.x",
+		"grunt-eslint": "19.0.x",
+		"grunt-rollup": "1.0.x",
+		"jit-grunt": "0.10.x",
+		"load-grunt-config": "0.19.x",
+		"rollup-plugin-babel": "2.7.x",
+		"time-grunt": "1.4.x"
+	},
+
+	"peerDependencies": {
+		"grunt": "1.x.x"
+	}
+}
