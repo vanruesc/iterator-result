@@ -4,7 +4,7 @@
 	"description": "A basic iterator result.",
 	"homepage": "https://github.com/vanruesc/iterator-result",
 	"main": "build/iterator-result.js",
-	"jsnext:main": "src/index.js",
+	"module": "src/index.js",
 	"license": "Zlib",
 
 	"keywords": [
