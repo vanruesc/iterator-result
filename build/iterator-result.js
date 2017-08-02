@@ -1,5 +1,5 @@
 /**
- * iterator-result v0.0.0 build Jan 11 2017
+ * iterator-result v0.0.1 build Aug 02 2017
  * https://github.com/vanruesc/iterator-result
  * Copyright 2017 Raoul van Rüschen, Zlib
  */
@@ -39,14 +39,17 @@
    *
    * The next method of an iterator always has to return an object with
    * appropriate properties including done and value.
-   *
-   * @class IteratorResult
-   * @constructor
-   * @param {Vector3} [value=null] - A value.
-   * @param {Vector3} [done=false] - Whether this result is past the end of the iterated sequence.
    */
 
   var IteratorResult = function () {
+
+  	/**
+    * Constructs a new iterator result.
+    *
+    * @param {Vector3} [value=null] - A value.
+    * @param {Vector3} [done=false] - Whether this result is past the end of the iterated sequence.
+    */
+
   	function IteratorResult() {
   		var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
   		var done = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
@@ -56,7 +59,6 @@
   		/**
      * An arbitrary value returned by the iterator.
      *
-     * @property value
      * @type Object
      * @default null
      */
@@ -66,7 +68,6 @@
   		/**
      * Whether this result is past the end of the iterated sequence.
      *
-     * @property done
      * @type Boolean
      * @default false
      */
@@ -76,8 +77,6 @@
 
   	/**
     * Resets this iterator result.
-    *
-    * @method reset
     */
 
   	createClass(IteratorResult, [{
@@ -90,6 +89,12 @@
   	}]);
   	return IteratorResult;
   }();
+
+  /**
+   * A compilation of the library components.
+   *
+   * @module iterator-result
+   */
 
   return IteratorResult;
 
