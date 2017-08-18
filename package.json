@@ -56,9 +56,5 @@
 		"load-grunt-config": "0.x.x",
 		"rollup-plugin-babel": "3.x.x",
 		"time-grunt": "1.x.x"
-	},
-
-	"peerDependencies": {
-		"grunt": "1.x.x"
 	}
 }
