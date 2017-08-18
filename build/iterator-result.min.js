@@ -1,5 +1,5 @@
 /**
- * iterator-result v0.0.1 build Aug 02 2017
+ * iterator-result v0.0.2 build Aug 19 2017
  * https://github.com/vanruesc/iterator-result
  * Copyright 2017 Raoul van Rüschen, Zlib
  */
