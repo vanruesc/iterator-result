@@ -5,6 +5,7 @@
 	"homepage": "https://github.com/vanruesc/iterator-result",
 	"main": "build/iterator-result.js",
 	"module": "src/index.js",
+	"sideEffects": false,
 	"license": "Zlib",
 
 	"keywords": [
