@@ -19,7 +19,7 @@ export default class IteratorResult {
 		/**
 		 * An arbitrary value returned by the iterator.
 		 *
-		 * @type Object
+		 * @type {Object}
 		 */
 
 		this.value = value;
@@ -27,7 +27,7 @@ export default class IteratorResult {
 		/**
 		 * Whether this result is past the end of the iterated sequence.
 		 *
-		 * @type Boolean
+		 * @type {Boolean}
 		 */
 
 		this.done = done;
