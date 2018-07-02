@@ -1,6 +1,6 @@
 {
 	"name": "iterator-result",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A basic iterator result.",
 	"homepage": "https://github.com/vanruesc/iterator-result",
 	"main": "build/iterator-result.js",
@@ -11,7 +11,8 @@
 	"keywords": [
 		"iterator",
 		"result",
-		"protocol"
+		"protocol",
+		"standard"
 	],
 
 	"author": {
