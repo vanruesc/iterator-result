@@ -5,8 +5,10 @@
 [![Dependencies](https://david-dm.org/vanruesc/iterator-result.svg?branch=master)](https://david-dm.org/vanruesc/iterator-result)
 
 The [iterator protocol](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols) defines a standard
-way to produce a sequence of values. An object is an iterator when it implements a ```next()``` method which returns objects
-that have at least the two properties ```value``` and ```done```. This module provides a base class for such iterator results.
+way to produce a sequence of values. An object is an iterator when it implements a `next()` method which returns objects
+that have at least the two properties `value` and `done`. This module provides a base class for such iterator results.
+
+*[API Reference](https://vanruesc.github.io/iterator-result)*
 
 
 ## Installation
