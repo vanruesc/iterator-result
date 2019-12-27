@@ -4,7 +4,7 @@
 	"description": "A basic iterator result.",
 	"homepage": "https://github.com/vanruesc/iterator-result",
 	"main": "build/iterator-result.js",
-	"module": "src/index.js",
+	"module": "build/iterator-result.esm.js",
 	"sideEffects": false,
 	"license": "Zlib",
 	"keywords": [
