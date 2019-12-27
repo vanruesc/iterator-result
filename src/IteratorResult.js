@@ -10,8 +10,8 @@ export default class IteratorResult {
 	/**
 	 * Constructs a new iterator result.
 	 *
-	 * @param {Vector3} [value=null] - A value.
-	 * @param {Vector3} [done=false] - Whether this result is past the end of the iterated sequence.
+	 * @param {Object} [value=null] - A value.
+	 * @param {Boolean} [done=false] - Whether this result is past the end of the iterated sequence.
 	 */
 
 	constructor(value = null, done = false) {
