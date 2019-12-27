@@ -35,8 +35,9 @@
 		"build": "rollup -c",
 		"build:production": "cross-env NODE_ENV=production rollup -c",
 		"doc": "esdoc",
+		"pretest": "npm run lint && npm run build:production",
 		"test": "ava",
-		"prepack": "npm run lint && npm run build:production"
+		"prepack": "npm test && npm run doc"
 	},
 	"ava": {
 		"failFast": true,
