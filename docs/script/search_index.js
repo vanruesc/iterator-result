@@ -1,8 +1,8 @@
 window.esdocSearchIndex = [
   [
-    "iterator-result/src/iteratorresult.js~iteratorresult",
+    "iterator-result~iteratorresult",
     "class/src/IteratorResult.js~IteratorResult.html",
-    "<span>IteratorResult</span> <span class=\"search-result-import-path\">iterator-result/src/IteratorResult.js</span>",
+    "<span>IteratorResult</span> <span class=\"search-result-import-path\">iterator-result</span>",
     "class"
   ],
   [

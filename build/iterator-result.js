@@ -1,12 +1,12 @@
 /**
- * iterator-result v0.0.3 build Fri Aug 31 2018
+ * iterator-result v1.0.0 build Fri Dec 27 2019
  * https://github.com/vanruesc/iterator-result
- * Copyright 2018 Raoul van Rüschen, Zlib
+ * Copyright 2019 Raoul van Rüschen, Zlib
  */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
-  (global.ITERATORRESULT = factory());
+  (global = global || self, global.ITERATORRESULT = factory());
 }(this, (function () { 'use strict';
 
   function _classCallCheck(instance, Constructor) {

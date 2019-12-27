@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 137,
+  "end": 48,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 8,
+      "line": 2,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 137,
+    "end": 48,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 8,
+        "line": 2,
         "column": 0
       }
     },
@@ -30,15 +30,15 @@
     "body": [
       {
         "type": "ExportNamedDeclaration",
-        "start": 89,
-        "end": 135,
+        "start": 0,
+        "end": 46,
         "loc": {
           "start": {
-            "line": 7,
+            "line": 1,
             "column": 0
           },
           "end": {
-            "line": 7,
+            "line": 1,
             "column": 46
           }
         },
@@ -46,67 +46,65 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 98,
-            "end": 105,
+            "start": 9,
+            "end": 16,
             "loc": {
               "start": {
-                "line": 7,
+                "line": 1,
                 "column": 9
               },
               "end": {
-                "line": 7,
+                "line": 1,
                 "column": 16
               }
             },
             "local": {
               "type": "Identifier",
-              "start": 98,
-              "end": 105,
+              "start": 9,
+              "end": 16,
               "loc": {
                 "start": {
-                  "line": 7,
+                  "line": 1,
                   "column": 9
                 },
                 "end": {
-                  "line": 7,
-                  "column": 16
-                },
-                "identifierName": "default"
-              },
-              "name": "default",
-              "leadingComments": null
-            },
-            "exported": {
-              "type": "Identifier",
-              "start": 98,
-              "end": 105,
-              "loc": {
-                "start": {
-                  "line": 7,
-                  "column": 9
-                },
-                "end": {
-                  "line": 7,
+                  "line": 1,
                   "column": 16
                 },
                 "identifierName": "default"
               },
               "name": "default"
             },
-            "leadingComments": null
+            "exported": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 16,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 9
+                },
+                "end": {
+                  "line": 1,
+                  "column": 16
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            }
           }
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 113,
-          "end": 134,
+          "start": 24,
+          "end": 45,
           "loc": {
             "start": {
-              "line": 7,
+              "line": 1,
               "column": 24
             },
             "end": {
-              "line": 7,
+              "line": 1,
               "column": 45
             }
           },
@@ -115,64 +113,13 @@
             "raw": "\"./IteratorResult.js\""
           },
           "value": "./IteratorResult.js"
-        },
-        "leadingComments": [
-          {
-            "type": "CommentBlock",
-            "value": "*\r\n * A compilation of the library components.\r\n *\r\n * @module iterator-result\r\n ",
-            "start": 0,
-            "end": 85,
-            "loc": {
-              "start": {
-                "line": 1,
-                "column": 0
-              },
-              "end": {
-                "line": 5,
-                "column": 3
-              }
-            }
-          }
-        ]
+        }
       }
     ],
     "directives": []
   },
-  "comments": [
-    {
-      "type": "CommentBlock",
-      "value": "*\r\n * A compilation of the library components.\r\n *\r\n * @module iterator-result\r\n ",
-      "start": 0,
-      "end": 85,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 0
-        },
-        "end": {
-          "line": 5,
-          "column": 3
-        }
-      }
-    }
-  ],
+  "comments": [],
   "tokens": [
-    {
-      "type": "CommentBlock",
-      "value": "*\r\n * A compilation of the library components.\r\n *\r\n * @module iterator-result\r\n ",
-      "start": 0,
-      "end": 85,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 0
-        },
-        "end": {
-          "line": 5,
-          "column": 3
-        }
-      }
-    },
     {
       "type": {
         "label": "export",
@@ -188,15 +135,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 89,
-      "end": 95,
+      "start": 0,
+      "end": 6,
       "loc": {
         "start": {
-          "line": 7,
+          "line": 1,
           "column": 0
         },
         "end": {
-          "line": 7,
+          "line": 1,
           "column": 6
         }
       }
@@ -213,15 +160,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 96,
-      "end": 97,
+      "start": 7,
+      "end": 8,
       "loc": {
         "start": {
-          "line": 7,
+          "line": 1,
           "column": 7
         },
         "end": {
-          "line": 7,
+          "line": 1,
           "column": 8
         }
       }
@@ -241,15 +188,15 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 98,
-      "end": 105,
+      "start": 9,
+      "end": 16,
       "loc": {
         "start": {
-          "line": 7,
+          "line": 1,
           "column": 9
         },
         "end": {
-          "line": 7,
+          "line": 1,
           "column": 16
         }
       }
@@ -266,15 +213,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 106,
-      "end": 107,
+      "start": 17,
+      "end": 18,
       "loc": {
         "start": {
-          "line": 7,
+          "line": 1,
           "column": 17
         },
         "end": {
-          "line": 7,
+          "line": 1,
           "column": 18
         }
       }
@@ -292,15 +239,15 @@
         "binop": null
       },
       "value": "from",
-      "start": 108,
-      "end": 112,
+      "start": 19,
+      "end": 23,
       "loc": {
         "start": {
-          "line": 7,
+          "line": 1,
           "column": 19
         },
         "end": {
-          "line": 7,
+          "line": 1,
           "column": 23
         }
       }
@@ -319,15 +266,15 @@
         "updateContext": null
       },
       "value": "./IteratorResult.js",
-      "start": 113,
-      "end": 134,
+      "start": 24,
+      "end": 45,
       "loc": {
         "start": {
-          "line": 7,
+          "line": 1,
           "column": 24
         },
         "end": {
-          "line": 7,
+          "line": 1,
           "column": 45
         }
       }
@@ -345,15 +292,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 134,
-      "end": 135,
+      "start": 45,
+      "end": 46,
       "loc": {
         "start": {
-          "line": 7,
+          "line": 1,
           "column": 45
         },
         "end": {
-          "line": 7,
+          "line": 1,
           "column": 46
         }
       }
@@ -371,15 +318,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 137,
-      "end": 137,
+      "start": 48,
+      "end": 48,
       "loc": {
         "start": {
-          "line": 8,
+          "line": 2,
           "column": 0
         },
         "end": {
-          "line": 8,
+          "line": 2,
           "column": 0
         }
       }
