@@ -1,8 +1,5 @@
 /**
  * A basic iterator result.
- *
- * The next method of an iterator always has to return an object with
- * appropriate properties including done and value.
  */
 
 export default class IteratorResult {
@@ -17,7 +14,7 @@ export default class IteratorResult {
 	constructor(value = null, done = false) {
 
 		/**
-		 * An arbitrary value returned by the iterator.
+		 * The value returned by the iterator.
 		 *
 		 * @type {Object}
 		 */
